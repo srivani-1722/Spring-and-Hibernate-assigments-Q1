@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="employeeBean1" class="com.srivani.Employee">
+<constructor-arg value="constructor name"></constructor-arg>
+<constructor-arg value="007" name="id" type="int"></constructor-arg>
+<constructor-arg value="22" name="age" type="int"></constructor-arg>
+
+
+<property name="name" value="Srivani Shivakavi"></property>
+<property name="id" value="7"  ></property>
+<property name="age" value="23"></property>
+
+</bean>
+
+</beans>
